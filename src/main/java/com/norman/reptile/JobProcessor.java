@@ -1,3 +1,5 @@
+package com.norman.reptile;
+
 import us.codecraft.webmagic.Page;
 import us.codecraft.webmagic.Site;
 import us.codecraft.webmagic.Spider;
@@ -12,6 +14,8 @@ public class JobProcessor implements PageProcessor {
         System.out.println("====================");
         System.out.println(page.getRawText());
         System.out.println("====================");
+
+
     }
 
     /** 配置抓取间隔，重试。。 */
